@@ -14,13 +14,15 @@ source:
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
   noarch: python
 
 requirements:
   build:
     - python
     - setuptools
+  host:
+    - pip
   run:
     - python
     - zict
