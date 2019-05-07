@@ -1,7 +1,7 @@
 {% set org = "mrocklin" %}
 {% set name = "streamz" %}
-{% set version = "0.5.0" %}
-{% set sha256 = "cfdd42aa62df299f550768de5002ec83112136a34b44441db9d633b2df802fb4" %}
+{% set version = "0.5.1" %}
+{% set sha256 = "80c9ded1d6e68d3b78339deb6e9baf93a633d84b4a8875221e337ac06890103f" %}
 
 package:
   name: {{ name|lower }}
@@ -34,7 +34,7 @@ test:
     - streamz.core
 
 about:
-  home: https://github.com/mrocklin/streamz/
+  home: https://github.com/python-streamz/streamz/
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
@@ -43,7 +43,7 @@ about:
   description: |
     Manage streaming data, optionally with Dask and Pandas
   doc_url: https://streamz.readthedocs.io/en/latest/
-  dev_url: https://github.com/mrocklin/streamz/
+  dev_url: https://github.com/python-streamz/streamz/
 
 extra:
   recipe-maintainers:
@@ -51,3 +51,4 @@ extra:
     - mrocklin
     - jrmlhermitte
     - mariusvniekerk
+    - martindurant
