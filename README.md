@@ -16,9 +16,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    
-    <td>All platforms:</td>
+<table><tr><td>All platforms:</td>
     <td>
       <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4357&branchName=master">
         <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/streamz-feedstock?branchName=master">
@@ -122,5 +120,6 @@ Feedstock Maintainers
 * [@CJ-Wright](https://github.com/CJ-Wright/)
 * [@jrmlhermitte](https://github.com/jrmlhermitte/)
 * [@mariusvniekerk](https://github.com/mariusvniekerk/)
+* [@martindurant](https://github.com/martindurant/)
 * [@mrocklin](https://github.com/mrocklin/)
 
