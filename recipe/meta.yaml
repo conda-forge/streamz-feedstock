@@ -1,7 +1,7 @@
 {% set org = "mrocklin" %}
 {% set name = "streamz" %}
-{% set version = "0.5.2" %}
-{% set sha256 = "0c106f40ca1804a3646f79f94c8a15233efa97c3152e3cab8bd2b3f964bbf988" %}
+{% set version = "0.5.3" %}
+{% set sha256 = "9f6ae491edd698a9eeb99a0a8c4995d14a4ff3266485d7100479eae324f01560" %}
 
 package:
   name: {{ name|lower }}
@@ -38,7 +38,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: "Manage streaming data, optionally with Dask and Pandas"
+  summary: Manage streaming data, optionally with Dask and Pandas
 
   description: |
     Manage streaming data, optionally with Dask and Pandas
