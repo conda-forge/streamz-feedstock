@@ -1,7 +1,7 @@
 {% set org = "mrocklin" %}
 {% set name = "streamz" %}
-{% set version = "0.5.6" %}
-{% set sha256 = "d2ca46c9f77ec444310c6ee45b66e8d59bb3a04607a0386297c10668ba7fca3a" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "1a0d68409195de2ce22e8b0943890c4a6af7fed1f9891c21fe3dffded3d2901a" %}
 
 package:
   name: {{ name|lower }}
