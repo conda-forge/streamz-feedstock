@@ -18,12 +18,12 @@ build:
   noarch: python
 
 requirements:
-  host:
-    - pip
   build:
     - python
+  host:
+    - pip
   run:
-    - python >= 3.6
+    - python >=3.6
     - zict
     - tornado
     - toolz
