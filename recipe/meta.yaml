@@ -1,7 +1,7 @@
 {% set org = "mrocklin" %}
 {% set name = "streamz" %}
-{% set version = "0.6.1" %}
-{% set sha256 = "215703456479d24f524cdcd0365006250d4502d242f57e2f5db18e8638bc8694" %}
+{% set version = "0.6.2" %}
+{% set sha256 = "04446ece273c041506b1642bd3d8380367a8372196be4d6d6d03faafadc590b2" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
-  script:  "{{ PYTHON }} -m pip install . --no-deps -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
 requirements:
@@ -26,6 +26,7 @@ requirements:
     - zict
     - tornado
     - toolz
+    - setuptools
     - six
 
 test:
