@@ -26,6 +26,7 @@ requirements:
     - zict
     - tornado
     - toolz
+    - setuptools
     - six
 
 test:
