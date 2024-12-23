@@ -3,13 +3,13 @@ About streamz-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/streamz-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/mrocklin/streamz/
+Home: https://github.com/python-streamz/streamz/
 
 Package license: BSD-3-Clause
 
 Summary: Manage streaming data, optionally with Dask and Pandas
 
-Development: https://github.com/mrocklin/streamz/
+Development: https://github.com/python-streamz/streamz/
 
 Documentation: https://streamz.readthedocs.io/en/latest/
 
