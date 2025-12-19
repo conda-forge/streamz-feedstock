@@ -1,7 +1,7 @@
 {% set org = "python-streamz" %}
 {% set name = "streamz" %}
-{% set version = "0.6.4" %}
-{% set sha256 = "5577d6904c2ec489c14154095772105e01954648819987d464204c6e3c9634f3" %}
+{% set version = "0.6.5" %}
+{% set sha256 = "d9ae5f4665c2a261950980c94dfa7f767507d2e33950651936c74b587cacaf22" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
