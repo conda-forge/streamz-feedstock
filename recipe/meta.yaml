@@ -1,7 +1,7 @@
 {% set org = "python-streamz" %}
 {% set name = "streamz" %}
-{% set version = "0.6.5" %}
-{% set sha256 = "d9ae5f4665c2a261950980c94dfa7f767507d2e33950651936c74b587cacaf22" %}
+{% set version = "0.6.6" %}
+{% set sha256 = "b72e55177bcd3c46608a0bcfb630bff43485ac6f1c0550586d2b5ead23901f10" %}
 
 package:
   name: {{ name|lower }}
